@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const StHeader = styled.div`
+const StHeader = styled.header`
   background-color: gray;
   align-items: center;
   display: flex;
@@ -15,12 +15,10 @@ const StHeader = styled.div`
 
 function Header() {
   return (
-    <div>
-      <StHeader>
-        <div>My Todo List</div>
-        <div>React</div>
-      </StHeader>
-    </div>
+    <StHeader>
+      <div>My Todo List</div>
+      <div>React</div>
+    </StHeader>
   );
 }
 
