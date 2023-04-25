@@ -38,7 +38,8 @@ React, Redux, Javascript, react-router-dom, HTML, styled-components, Git, Github
 - Todo Id 생성 시 todos.length 사용해서 생성하지 말 것!
 
 
-### 컴포넌트 구조
+# :open_file_folder: 컴포넌트 분리 구조
+```bash
 📦src
  ┣ 📂components
  ┃ ┗ 📜Header.jsx         : 헤더 컴포넌트
@@ -59,5 +60,5 @@ React, Redux, Javascript, react-router-dom, HTML, styled-components, Git, Github
  ┣ 📜App.jsx             
  ┣ 📜index.js
  ┗ 📜reportWebVitals.js
-
+```
 
