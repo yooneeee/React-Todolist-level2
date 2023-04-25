@@ -48,18 +48,11 @@ function AddTodo() {
     setContents(event.target.value);
   };
 
+  // 액션 객체를 리듀서로 보내주는 역할: useDispatch훅
   const dispatch = useDispatch();
 
   const onSubmitHandler = (event) => {
     event.preventDefault();
-    /*     const newTodo = {
-          title,
-          contents,
-          isDone: false,
-          id: uuidv4(),
-        };
-    
-        setTodos([...todos, newTodo]); */
     dispatch(addTodo(title, contents));
     setTitle("");
     setContents("");

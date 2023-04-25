@@ -14,7 +14,6 @@ function TodoList() {
   const dispatch = useDispatch();
 
   //컴포넌트에서 리덕스 스토어 조회(useSelector훅 사용)
-
   const deleteClick = (payload) => {
     dispatch(deleteTodo(payload));
   };
